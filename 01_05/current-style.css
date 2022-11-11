@@ -11,14 +11,40 @@ img {
   max-width: 100%;
 }
 
-.wrapper {
+/* .wrapper {
+display: flex;
+align-items: center;
+} */
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 100vh; */
+  align-items: center;
 }
 
 .image img {
 
+  object-fit: cover;
+  height: 100vh;
 }
+
+/* figure.image {
+    flex-basis: 100%;
+} */
 
 .cover {
   padding: 2rem;
+
+  /* flex-basis: 100%; */
+
+  box-sizing: border-box;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+
+
 }

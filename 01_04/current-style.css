@@ -8,8 +8,20 @@
   gap: 1rem;
 }
 
+.wrapper {
+
+}
+
 .block {
   
   padding: 0 1rem;
   border: 0.5rem solid green;
+}
+
+.block {
+
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 25%;
+  flex-basis: calc(100px, 24%, 23ch);
 }
